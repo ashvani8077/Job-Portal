@@ -1,0 +1,10 @@
+POST http://localhost:8000/api/v1/user/login
+
+Content-Type: application/json
+
+{
+    "email":"patel@gmail.com",
+    "password":"patel123",
+    "role":"recruiter"
+}
+
